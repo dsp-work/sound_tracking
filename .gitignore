@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
+# build directory
+Debug
+Release
+build
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# build item
 *.a
-*.lib
-
-# Executables
+*.o
 *.exe
-*.out
-*.app
+*.png
+
+# using development
+develop_main.cpp
+
+# necessary for telling cmake setting(e.g. include dir)
+!*.code-workspace
